@@ -1,0 +1,193 @@
+body {
+width: available;
+height: available;
+  margin: 0; 
+  background-color: white;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  color: #39FF14;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 42px;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 16px;
+  color: black;
+}
+
+.container {
+	width: available;
+	height: available;
+}
+
+.leftpane {
+	width: 25%;
+	min-width: 250px;
+	height: available;
+	float: left;
+	text-align: center;
+	background-color: #00000;
+	padding: 35px 25px;
+	margin-left: 50px;
+}
+
+.root {
+	margin-top: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.computerContainer {
+  width: 650px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  background-color: #70778c;
+  border-radius: 40px 40px 40px 40px;
+}
+
+.column {
+	padding: 15px 130px;
+	overflow: hidden;
+}
+
+#send, #receive {
+	display: block;
+}
+
+#send {
+	color: white;
+	background-color: black;
+	padding: 10px 25px;
+	text-align: center;
+	float: left;
+}
+
+#receive {
+	color: white;
+	background-color: black;
+	padding: 10px 25px;
+	text-align: center;
+	float: right;
+}
+
+#input {
+	width: 100%;
+	float: left;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+.screenContainer {
+  flex: 0 0 93%;
+  border-radius: 20px 20px 20px 20px;
+  background: #A2A7B6;
+  padding: 0px 50px 50px 50px;
+}
+
+.screenFrame {
+  height: 90%;
+  background-color: #70778c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px 20px;
+}
+
+.screen {
+  background-color: #222;
+  height: 90%;
+  width: 90%;
+  margin: 18px 0;
+  border-radius: 235px / 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyDecor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #cfc19a;
+  border-radius: 0 0 24px 24px;
+  padding: 10px 30px;
+}
+
+
+.logoContainer {
+  flex: 3;
+}
+
+
+.terminal {
+  height: 395px;
+  flex: 0 0 95%;
+  overflow-y: auto;
+  font-size: 24px;
+}
+
+
+.currentLine {
+  margin: 0 20px;
+  line-height: 1.2;
+  display: flex;
+}
+
+.prompt {
+  color: #39FF14;
+  font-family: monospace;
+  line-height: 1.2;
+  margin-right: 5px;
+  font-size: 35px;
+}
+
+.inputContainer {
+  flex: 1
+}
+
+
+#output {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: #222;
+  color: white;
+  width: 99%;
+  font-family: monospace;
+  font-size: 35px;
+  margin-left: 2px;
+  margin-top: 30px;
+}
+
+#resp {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: #222;
+  color: #39FF14;
+  width: 99%;
+  font-family: monospace;
+  font-size: 35px;
+  margin-left: 2px;
+  margin-top: 10px;	
+}
+.output {
+  color: #00fe00;
+  font-family: monospace;
+  margin: 0;
+  line-height: 1.2;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.outputContainer {
+  margin: 0 10px;
+}

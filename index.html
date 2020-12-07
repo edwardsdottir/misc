@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>TITLE TEST</title>
+  <meta name="description" content="TITLE TEST">
+  <meta name="author" content="SCITECH">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+	<h1>REVERSE ENGINEERING AVIONICS<h1>
+	<p> What is the meaning of the message received X0eQABQBA0GTTqrd in the avionics system?</p>
+	
+<div class="container">
+	<div class="leftpane">
+		<h3>Input Message</h3>
+		<input type="text" id="input"/>
+		
+		<!--<p id="output"> </p>-->
+	</div>
+ <div class="root">
+    <main class="computerContainer">
+      <section class="screenContainer">
+	  
+	  <div class="column">
+			<button id="send"> TX </button>
+			<button id="receive"> RX </button>
+	  </div>
+		
+        <div class="screenFrame">
+          <div class="screen">
+            <div class="terminal">
+              <div class="currentLine">
+                <pre><span class="prompt">1555z  ATC UPLINK 1/2 <br />        OPEN </span></pre>
+				<!-- <div class="inputContainer">
+                  <p id="output"> </p>
+                </div> --> 
+              </div>
+			  <p id="resp"> ------ RESPONSE ------ </p>
+			  <p id="output"> </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  
+</div>
+
+<script type="text/javascript" src="./avionics.js"></script>
+
+</body>
+</html>
